@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.schneider-oliver</groupId>
+  <artifactId>AuroraHomebrewMaker</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210101132943</lastUpdated>
+  </versioning>
+</metadata>

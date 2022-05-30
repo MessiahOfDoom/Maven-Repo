@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.messiahofdoom",
+    "module": "DoomedLib-Fabric",
+    "version": "0.9.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "DoomedLib-Fabric-0.9.2.jar",
+          "url": "DoomedLib-Fabric-0.9.2.jar",
+          "size": 257748,
+          "sha512": "6175ca2f7bb8b9d6f8897a6664f490925ea75a29daa12ede8843183bf38ed22ba8c45f8174e24dfdda93094e01aa80266c342b82294987c9f4bb16d68e0637b2",
+          "sha256": "fb73c85a69aa098ef42666410f9896820ebc13a0a37cf825a054bf54da9e420f",
+          "sha1": "a28ba2be950e391db23b0fa046c4334e7e90760a",
+          "md5": "5f8090f6dc4d1c0ecf4ca198496ff0a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.13.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.47.8+1.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DoomedLib-Fabric-0.9.2.jar",
+          "url": "DoomedLib-Fabric-0.9.2.jar",
+          "size": 257748,
+          "sha512": "6175ca2f7bb8b9d6f8897a6664f490925ea75a29daa12ede8843183bf38ed22ba8c45f8174e24dfdda93094e01aa80266c342b82294987c9f4bb16d68e0637b2",
+          "sha256": "fb73c85a69aa098ef42666410f9896820ebc13a0a37cf825a054bf54da9e420f",
+          "sha1": "a28ba2be950e391db23b0fa046c4334e7e90760a",
+          "md5": "5f8090f6dc4d1c0ecf4ca198496ff0a7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DoomedLib-Fabric-0.9.2-sources.jar",
+          "url": "DoomedLib-Fabric-0.9.2-sources.jar",
+          "size": 231399,
+          "sha512": "d050b9ad173062b698fb98371fba9bf97e42e8639179308ea0df4e7061fe0a8c02c884552fb0645131fabc8d035d9bac9391b9ebd5d8aa617dd002293c3e86cd",
+          "sha256": "9a79986d9b029cb8544748f41d7a5916e4808bafa071efdec107ac8ef2152d0d",
+          "sha1": "f04113e9e074fb06e14bdecb592fcd115b6aa852",
+          "md5": "55605f80656e8970c35e6291d43fe956"
+        }
+      ]
+    }
+  ]
+}

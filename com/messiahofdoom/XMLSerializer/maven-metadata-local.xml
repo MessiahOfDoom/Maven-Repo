@@ -3,12 +3,13 @@
   <groupId>com.messiahofdoom</groupId>
   <artifactId>XMLSerializer</artifactId>
   <versioning>
-    <release>1.2</release>
+    <release>1.3</release>
     <versions>
       <version>1.0</version>
       <version>1.1</version>
       <version>1.2</version>
+      <version>1.3</version>
     </versions>
-    <lastUpdated>20221016121927</lastUpdated>
+    <lastUpdated>20221016123821</lastUpdated>
   </versioning>
 </metadata>
